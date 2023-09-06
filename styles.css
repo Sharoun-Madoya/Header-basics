@@ -11,14 +11,14 @@ body{
 
 header{
     height: 100vh;
-    width: 200vh;
+    width: 100vw;
     background-image: url(images/marigold-1568646_1280.jpg);
     background-size: cover;
 }
 
 .navbar {
     position: absolute;
-    margin: 50px;
+    padding: 50px;
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -30,19 +30,21 @@ header{
     font-weight: bold;
 }
 
-.navbar .navlinks ul{
+.navbar .nav-links ul {
     display: flex;
 }
 
-.navbar .navlinks ul li{
+.navbar .nav-links ul li{
     margin: 0 25px;
 }
 
-.navbar .navlinks ul li.active a{
+.navbar .nav-links ul li.active a{
     color: brown;
     font-weight: 600;
 }
 
-@media screen and (content: '\F0D4C';) {
-    
+@media screen and (max-width: 900px) {
+    .nav-links{
+        display: none;
+    }
 }
