@@ -74,6 +74,12 @@ header{
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-left: -100%;
+        transition: all 0.5s ease;
+    }
+
+    .nav-links.mobile-menu {
+        margin-left: 0;
     }
     .nav-links ul{
         display: flex;
