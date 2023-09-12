@@ -44,6 +44,7 @@ header{
 }
 
 .navbar .menu{
+    display: none;
     position: absolute;
     top : 50px ;
     right: 90px;
@@ -51,6 +52,9 @@ header{
 }
 
 @media screen and (max-width: 900px) {
+    /* .nav-links{
+        display: none;
+    } */
     .navbar{
         padding: 0;
     }
